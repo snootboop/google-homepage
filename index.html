@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Google</title>  
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            nav, footer {
+                display: flex;
+                justify-content: space-between;
+            }
+            nav ul, footer ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: space-around;
+            }
+            nav li, footer li {
+                padding: 10px;
+            }
+            footer {
+                align-items: flex-end;
+            }
+            .wrapper {
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>About</li>
+                <li>Store</li>
+            </ul>
+            <ul>
+                <li>Gmail</li>
+                <li>Images</li>
+                <li><button>Sign In</button></li>
+            </ul>
+        </nav>
+        <div class="wrapper">
+            <div id="logo">
+                <a href="/"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
+            </div>
+            <form id="search" action="/">
+                <input>
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </form>
+        </div>
+        <footer>
+            <ul>
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search Works</li>
+            </ul>
+            <ul>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </footer>
+    </body>
+</html>
