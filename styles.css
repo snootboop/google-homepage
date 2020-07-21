@@ -1,0 +1,137 @@
+
+/****** start reset ******/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****** end reset ******/
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    top: 0;
+    height: 40px;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    line-height: 24px;
+    padding: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    color: #5f6368;
+    padding: 10px 20px;
+    font-size: 14px;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    float: left;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#signin {
+    color: white;
+    padding: 10px;
+    margin-top: -10px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#searchbox {
+    width: 582px;
+}
+
+#searchbox input {
+    width: 100%;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    font-size: 16px;
+    padding: 10px;
+    margin: 30px 0;
+}
+
+#searchbuttons button {
+    padding: 10px 20px;
+    margin-top: -10px;
+    margin: -10px 5px 0 5px;
+    border: 1px solid #f2f2f2;
+    outline: none;
+    background: #f2f2f2;
+    border-radius: 5px;
+    color: #5F6368;
+    font-size: 14px;
+}
+

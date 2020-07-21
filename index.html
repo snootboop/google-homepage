@@ -3,42 +3,41 @@
     <head>
         <meta charset="UTF-8">
         <title>Google</title>  
-        <style>
-            body {
-                font-family: sans-serif;
-            }
-            
-        </style>
+        
+        <link rel="stylesheet" href="styles.css">
+
     </head>
     <body>
         <nav>
-            <ul>
+            <ul class="left">
                 <li>About</li>
                 <li>Store</li>
             </ul>
-            <ul>
+            <ul class="right">
                 <li>Gmail</li>
                 <li>Images</li>
-                <li><button>Sign In</button></li>
+                <li><button id="signin">Sign In</button></li>
             </ul>
         </nav>
-        <div class="wrapper">
+        <section class="main">
             <div id="logo">
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             </div>
-            <form>
-                <input>
+            <div id="searchbox">
+                <input type="text">
+            </div>
+            <div id="searchbuttons">
                 <button>Google Search</button>
                 <button>I'm Feeling Lucky</button>
-            </form>
-        </div>
+            </div>
+        </section>
         <footer>
-            <ul>
+            <ul class="left">
                 <li>Advertising</li>
                 <li>Business</li>
                 <li>How Search Works</li>
             </ul>
-            <ul>
+            <ul class="right">
                 <li>Privacy</li>
                 <li>Terms</li>
                 <li>Settings</li>

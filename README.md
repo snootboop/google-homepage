@@ -1,1 +1,1 @@
-Test building the google homepage
+Brushing up on old skills. Recreating the google homepage.
